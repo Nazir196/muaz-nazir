@@ -2,7 +2,7 @@ import { FaLinkedin, FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-  <nav className="mb-20 mt-4 flex items-center flex-col md:flex-row justify-between py-2">
+  <nav className="mb-20 md:mt-4 flex items-center flex-col md:flex-row justify-between py-2">
     <div className="flex flex-shrink-0 items-center">
         <h1 className="m-4 text-gray-400 text-3xl font-lora hover:cursor-pointer">Muaz's Portfolio</h1>
     </div>
