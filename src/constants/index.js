@@ -71,18 +71,21 @@ export const PROJECTS = [
     image: calculator,
     description: "Developed a fully functional calculator using HTML, CSS, and JavaScript. Implemented DOM manipulation, event handling, and mathematical operations to provide a seamless user experience with error handling for invalid inputs.",
     technologies: ["HTML, CSS, JavaScript"],
+    link:"https://calculator-neon-mu-30.vercel.app/"
   },
   {
     title: "Drum Kit",
     image: DrumKit,
     description: "Built an interactive drum kit using HTML, CSS, and JavaScript. Enabled users to play different drum sounds by pressing keys, utilizing event listeners and DOM manipulation to create a dynamic and responsive audio experience.",
     technologies: ["HTML, CSS, JavaScript"],
+    link:"https://drum-kit-six-lemon.vercel.app/",
   },
   {
     title: "Rock, Paper, Scissor Game",
     image: rockpaper,
     description: "A classic game built with HTML, CSS, and JS. This interactive project features real-time gameplay and demonstrates my skills in front-end development and responsive design.",
     technologies: ["HTML, CSS, JavaScript"],
+    link:"https://rock-paper-scissor-five-navy.vercel.app/",
   },
 ];
 
