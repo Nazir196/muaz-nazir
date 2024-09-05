@@ -1,4 +1,4 @@
-import profilePic from "../assets/MuazNazir4.jpeg";
+import profilePic from "../assets/MuazNazir5.jpeg";
 import { motion } from "framer-motion";
 
 

@@ -1,16 +1,20 @@
-
+import calculator from "../assets/Calculator.jpg";
+import TicTacToe from "../assets/TicTacToe.jpg";
+import DrumKit from "../assets/DrumKit.jpg";
+import rockpaper from "../assets/rock paper.jpg";
 
 export const EXPERTISE = [
   {field: "Programming Languages:",
     skill: "JavaScript, HTML, CSS", },
 
   { field: "Frameworks & Libraries:",
-    skill: "React.js, Next.js", },
+    skill: "React.js", },
 
   { field: "Web Development:",
     skill: "Responsive Design, Front-End Development, RESTful APIs", },
+
   { field: "Database Management:",
-    skill: "SQL, Database Design and Management", },
+    skill: "Database Design and Management", },
 
   { field: "Software Development:",
     skill: "OOP, Data Structures and Algorithms", },
@@ -52,21 +56,38 @@ export const EDUCATION = [
   },
 ];
 
+                            // Projects Section
 
 export const PROJECTS = [
   {
-    title: "TIC, TAC, TOE GAME",
-    description:
-      "A web-based Tic Tac Toe game developed with HTML, CSS, and JavaScript, faithfully recreating the classic gameplay experience with a clean and responsive design.",
+    title: "Tic, Tac, Toe Game",
+    image: TicTacToe,
+    description: "A web-based Tic Tac Toe game developed with HTML, CSS, and JavaScript, faithfully recreating the classic gameplay experience with a clean and responsive design.",
+    technologies: ["HTML, CSS, JavaScript"],
+    link:"https://tic-tac-toe-delta-nine-80.vercel.app/",
+  },
+  {
+    title: "Calculator",
+    image: calculator,
+    description: "Developed a fully functional calculator using HTML, CSS, and JavaScript. Implemented DOM manipulation, event handling, and mathematical operations to provide a seamless user experience with error handling for invalid inputs.",
     technologies: ["HTML, CSS, JavaScript"],
   },
   {
-    title: "Amazon-Clone Website",
-    description:
-      "Created an Amazon clone website using HTML and CSS, replicating the design and layout of the e-commerce platform.",
-    technologies: ["HTML, CSS"],
+    title: "Drum Kit",
+    image: DrumKit,
+    description: "Built an interactive drum kit using HTML, CSS, and JavaScript. Enabled users to play different drum sounds by pressing keys, utilizing event listeners and DOM manipulation to create a dynamic and responsive audio experience.",
+    technologies: ["HTML, CSS, JavaScript"],
+  },
+  {
+    title: "Rock, Paper, Scissor Game",
+    image: rockpaper,
+    description: "A classic game built with HTML, CSS, and JS. This interactive project features real-time gameplay and demonstrates my skills in front-end development and responsive design.",
+    technologies: ["HTML, CSS, JavaScript"],
   },
 ];
+
+
+
 
 export const CONTACT = {
   address: "Lahore, Punjab, Pakistan",
